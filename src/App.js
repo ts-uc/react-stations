@@ -26,6 +26,7 @@ export const App = () => {
   return (
     <div>
       <header>
+        Dog アプリ
       </header>
       <p>犬の画像を表示するサイトです</p>
       <img src={dogUrl} />
