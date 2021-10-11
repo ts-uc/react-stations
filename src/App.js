@@ -28,10 +28,10 @@ export const App = () => {
       <header>
         Dog アプリ
       </header>
-      <div id="explanation">
+      <div class="explanation">
       <p>犬の画像を表示するサイトです</p>
       </div>
-      <div id="image_button">
+      <div class="image_button">
       <img src={dogUrl} />
       <button type="button" onClick={changeImage}>更新</button>
       </div>
