@@ -6,11 +6,9 @@ header{
     padding:10px;
 }
 
-button{
-    padding: 5px, 20px;
-    text-align: center;
-    letter-spacing: 0.1em;
+.reloadbutton{
     color: #fff;
     background-color: #007bff;
     border: none;
+    padding: 5px 10px;
 }
