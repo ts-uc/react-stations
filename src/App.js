@@ -24,13 +24,18 @@ export const App = () => {
   };
 
   return (
-    <div>
+    <body>
       <header>
         Dog アプリ
       </header>
+      <div id="explanation">
       <p>犬の画像を表示するサイトです</p>
+      </div>
+      <div id="image_button">
       <img src={dogUrl} />
       <button type="button" onClick={changeImage}>更新</button>
-    </div>
+      </div>
+      <hr/>
+    </body>
   )
 }
