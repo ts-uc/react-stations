@@ -28,15 +28,17 @@ export const App = () => {
       <header>
         Dog アプリ
       </header>
-      <div class="explanation">
-      <p>犬の画像を表示するサイトです</p>
-      </div>
-      <div class="image_button">
-        <div>
-          <img src={dogUrl} />
+      <div class="content1">
+        <div class="explanation">
+          <p>犬の画像を表示するサイトです</p>
         </div>
-        <div>
-          <button type="button" class="reloadbutton" onClick={changeImage}>更新</button>
+        <div class="image_button">
+          <div>
+            <img src={dogUrl} />
+          </div>
+          <div>
+            <button type="button" class="reloadbutton" onClick={changeImage}>更新</button>
+          </div>
         </div>
       </div>
       <hr/>
