@@ -1,23 +1,23 @@
-header{
-    background-color: #f5f5f5;
-    font-size: 200%;
-    font-weight: bold;
-    text-align: center;
-    padding:10px;
+header {
+  background-color: #f5f5f5;
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
 }
 
-.reloadbutton{
-    color: #fff;
-    background-color: #007bff;
-    border: none;
-    padding: 5px 10px;
+.reloadbutton {
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  padding: 5px 10px;
 }
 
-.explanation{
-    width: 50%;
-    text-align: center;
+.explanation {
+  width: 50%;
+  text-align: center;
 }
 
-.content1{
-    display: flex;
+.content1 {
+  display: flex;
 }
