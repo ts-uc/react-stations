@@ -5,6 +5,7 @@ import './App.css'
 import * as React from 'react'
 import { Header } from './Header.js'
 import { Description } from './Description.js'
+import { DogListContainer } from './DogListContainer.js'
 
 /**
  *

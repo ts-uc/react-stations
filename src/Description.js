@@ -20,7 +20,7 @@ export const Description = () => {
   }
 
   return (
-    <div class="content1">
+    <div class="description">
       <div class="explanation">
         <p>犬の画像を表示するサイトです</p>
       </div>
