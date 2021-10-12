@@ -11,12 +11,11 @@ export const Description = () => {
   const changeImage = () => {
     fetch('https://dog.ceo/api/breeds/image/random')
       .then(res => res.json())
-      .then(
-        result => {
+      .then(result => {
+        if (result.status === 'success') {
           setDogUrl(result.message)
-        },
-        error => {},
-      )
+        }
+      })
   }
 
   return (
