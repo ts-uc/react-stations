@@ -10,13 +10,13 @@ export const BreedsSelect = props => {
     <option value={breeds}>{breeds}</option>
   ))
   return (
-    <dev>
+    <>
       <label for="breed-select">Breeds list:</label>
 
       <select value={selectedBreed} onChange={handleChange}>
         <option value="">Select</option>
         {breedsItems}
       </select>
-    </dev>
+    </>
   )
 }
