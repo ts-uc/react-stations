@@ -36,9 +36,9 @@ export const DogListContainer = () => {
   }
 
   const dogImages = Object.values(dogUrls).map(src => (
-    <li>
+    <div class="dogimage">
       <DogImage url={src} />
-    </li>
+    </div>
   ))
 
   return (
@@ -51,8 +51,7 @@ export const DogListContainer = () => {
       <button type="button" class="reloadbutton" onClick={changeImage}>
         表示
       </button>
-      {dogImages}
-      <p>{selectedBreed}</p>
+      <div class="dogimagecontainer">{dogImages}</div>
     </>
   )
 }
