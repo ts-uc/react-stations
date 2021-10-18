@@ -21,3 +21,15 @@ header {
 .description {
   display: flex;
 }
+
+.dogimagecontainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dogimagecontainer img {
+  display: block;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
